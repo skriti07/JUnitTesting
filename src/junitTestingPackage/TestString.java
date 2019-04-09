@@ -9,8 +9,8 @@ class TestString {
 	@Test
 	void test() {
 		Function obj2=new Function();
-		String res=obj2.addString("Happy ","Birthday");
-		assertEquals(res,"Happy Birthday");
+		String res=obj2.addString("abc","def");
+		assertEquals(res,"abcde");
 	}
 
 }

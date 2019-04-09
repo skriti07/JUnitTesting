@@ -9,7 +9,7 @@ class TestNubers {
 	@Test
 	void test() {
 		Function obj1=new Function();
-		int res=obj1.addNumbers(100,200);
+		int res=obj1.addNumbers(100,20);
 		assertEquals(res,300);
 	}
 
