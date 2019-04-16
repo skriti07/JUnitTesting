@@ -10,7 +10,7 @@ class TestString {
 	void test() {
 		Function obj2=new Function();
 		String res=obj2.addString("abc","def");
-		assertEquals(res,"abcde");
+		assertEquals(res,"abcdef");
 	}
 
 }
